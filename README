@@ -1,8 +1,16 @@
 A simple Android App for taking notes of Inventory taking or counting, results exportable to CSV for Excel import
 
+Summary of functionalities
+==========================
+- Take a new Note with 6 fields identified by a letter (ABCDEF), a customizable hint, a customizable entry keyboard, a scan for barcode using the camera
+- Attach photos to a Note, or delete them; useful for visual identification
+- List all Notes
+- Edit a Note
+- Export data to CSV for Excel import
+
 
 Credits
-
+=======
 Largely inspired by the Android Notepad Tutorial.
 
 Also these following resources where useful while adding functionalities.

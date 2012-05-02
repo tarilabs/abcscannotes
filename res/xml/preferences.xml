@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:summary="Here you can set application preferences like the Hint to be displayed in the Slots textfields as well as the Keyboard to be defaulted per each Slot" android:title="Preferences" android:key="bodyDescription"></Preference>
+    
+    <PreferenceCategory android:title="Slot A">
+        <EditTextPreference android:key="slotAhint" android:title="Slot A Hint" android:defaultValue="Slot A" android:shouldDisableView="true"></EditTextPreference>
+        <ListPreference android:key="slotAkeyboard" android:title="Slot A keyboard" android:entryValues="@array/abckeyboards" android:entries="@array/abckeyboards" android:defaultValue="Default keyboard"></ListPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Slot B">
+        <EditTextPreference android:key="slotBhint" android:title="Slot B Hint" android:defaultValue="Slot B" android:shouldDisableView="true"></EditTextPreference>
+        <ListPreference android:key="slotBkeyboard" android:title="Slot B keyboard" android:entryValues="@array/abckeyboards" android:entries="@array/abckeyboards" android:defaultValue="Default keyboard"></ListPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Slot C">
+        <EditTextPreference android:key="slotChint" android:title="Slot C Hint" android:defaultValue="Slot C" android:shouldDisableView="true"></EditTextPreference>
+        <ListPreference android:key="slotCkeyboard" android:title="Slot C keyboard" android:entryValues="@array/abckeyboards" android:entries="@array/abckeyboards" android:defaultValue="Default keyboard"></ListPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Slot D">
+        <EditTextPreference android:key="slotDhint" android:title="Slot D Hint" android:defaultValue="Slot D" android:shouldDisableView="true"></EditTextPreference>
+        <ListPreference android:key="slotDkeyboard" android:title="Slot D keyboard" android:entryValues="@array/abckeyboards" android:entries="@array/abckeyboards" android:defaultValue="Default keyboard"></ListPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Slot E">
+        <EditTextPreference android:key="slotEhint" android:title="Slot E Hint" android:defaultValue="Slot E" android:shouldDisableView="true"></EditTextPreference>
+        <ListPreference android:key="slotEkeyboard" android:title="Slot E keyboard" android:entryValues="@array/abckeyboards" android:entries="@array/abckeyboards" android:defaultValue="Default keyboard"></ListPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Slot F">
+        <EditTextPreference android:key="slotFhint" android:title="Slot F Hint" android:defaultValue="Slot F" android:shouldDisableView="true"></EditTextPreference>
+        <ListPreference android:key="slotFkeyboard" android:title="Slot F keyboard" android:entryValues="@array/abckeyboards" android:entries="@array/abckeyboards" android:defaultValue="Default keyboard"></ListPreference>
+    </PreferenceCategory>
+    
+</PreferenceScreen>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical">
+    
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/tableLayout1" android:layout_width="match_parent"
+	android:layout_height="wrap_content" android:shrinkColumns="*">
+	<TableRow android:id="@+id/tableRow1" android:layout_height="wrap_content"
+		android:layout_width="match_parent" android:gravity="center_horizontal">
+
+		<TextView android:text="A" android:id="@+id/textViewA"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<EditText android:hint="Slot A" android:id="@+id/editTextA"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_weight="1"></EditText>
+		<Button android:text="Scan" android:id="@+id/buttonScanA"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+
+		<TextView android:text="D" android:id="@+id/textViewD"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<EditText android:hint="Slot D" android:id="@+id/editTextD"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_weight="1"></EditText>
+		<Button android:text="Scan" android:id="@+id/buttonScanD"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow2" android:layout_height="wrap_content"
+		android:layout_width="match_parent" android:gravity="center_horizontal">
+		<TextView android:text="B" android:id="@+id/textViewB"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<EditText android:hint="Slot B" android:id="@+id/editTextB"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_weight="1"></EditText>
+		<Button android:text="Scan" android:id="@+id/buttonScanB"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+
+		<TextView android:text="E" android:id="@+id/textViewE"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<EditText android:hint="Slot EEEEE" android:id="@+id/editTextE"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_weight="1"></EditText>
+		<Button android:text="Scan" android:id="@+id/buttonScanE"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+
+	</TableRow>
+	<TableRow android:id="@+id/tableRow2" android:layout_height="wrap_content"
+		android:layout_width="match_parent" android:gravity="center_horizontal">
+
+		<TextView android:text="C" android:id="@+id/textViewC"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<EditText android:hint="Slot C" android:id="@+id/editTextC"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_weight="1"></EditText>
+		<Button android:text="Scan" android:id="@+id/buttonScanC"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+
+		<TextView android:text="F" android:id="@+id/textViewF"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<EditText android:hint="Slot F" android:id="@+id/editTextF"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_weight="1"></EditText>
+		<Button android:text="Scan" android:id="@+id/buttonScanF"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+
+
+	</TableRow>
+</TableLayout>
+
+
+
+
+	<EditText android:id="@+id/editTextNotes" android:layout_width="match_parent"
+		android:hint="Notes..."
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:scrollbars="vertical" />
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >	
+
+	<Button android:id="@+id/addPhoto" 
+	  android:text="Add a Photo"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+	<Button android:id="@+id/deletePhotos" 
+	  android:text="Delete Photos"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+		
+		<TextView android:layout_weight="1" android:text="Tap me for photo count." 
+		android:id="@+id/textViewStatus" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+			
+	<Button android:id="@+id/btnSave" 
+	  android:text="Save"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+	<Button android:id="@+id/btnSaveNext" 
+	  android:text="Save Go Next"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+</LinearLayout>
+</LinearLayout>

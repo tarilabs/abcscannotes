@@ -1,0 +1,21 @@
+A simple Android App for taking notes of Inventory taking or counting, results exportable to CSV for Excel import
+
+
+Credits
+
+Largely inspired by the Android Notepad Tutorial.
+
+Also these following resources where useful while adding functionalities.
+
+http://www.tutorialforandroid.com/2010/10/take-picture-in-android-with.html
+
+http://www.tutorials-android.com/learn/How_to_display_a_progress_dialog_while_computing.rhtml
+
+http://sree.cc/google/android/android-accessing-data-with-cursors
+
+http://www.helloandroid.com/tutorials/preferenceactivity-basics
+    PreferenceManager.setDefaultValues(context, R.xml.nameofpreferencesxmlfile, false);
+    SharedPreferences sp=PreferenceManager.
+                    getDefaultSharedPreferences(context);
+    String value=sp.getString("key",null);
+    //value contains the default value defined in xml instead of null
